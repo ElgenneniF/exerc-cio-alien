@@ -132,14 +132,14 @@ function update() {
             else {  semFogo();
            
     }
-
+    //deixa o fogo na posição dele
     fogo.setPosition(alien.x, alien.y + alien.height/2);
     
 
 
 
 }
-
+//funções que ativam ou desativam a visibilidade do fogo
 function ativarFogo(){
     fogo.setVisible(true)
 }
