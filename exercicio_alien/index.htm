@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        //essa parte eu tive a ideia, mas n descobri uma forma eficiente de fazer
+        //acabei por usar o chatgpt para fazer o codigo para mim, mas entendi o funcionamento.
+        //usei o prompt: crie uma lista em js que altere o titulo da pagina de forma aleatoria segundo os passos:
+        // crie a lista, pegue um item aleatorio, troque o titulo da pagina pelo item escolhido
+        const array = ['não sei', 'como eu', 'pensei nisso'];
+        const randomIndex = Math.floor(Math.random() * array.length);
+        document.title = array[randomIndex];
+    </script>
+    <script src="phaser.js"></script>
+    <style> body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; } </style>
+
+</head>
+
+<body>
+    <script src="alien.js"></script>
+</body>
+</html>
